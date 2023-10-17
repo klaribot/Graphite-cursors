@@ -114,5 +114,11 @@ THEME="Graphite dark nord Cursors"
 BUILD="$SRC/../dist-dark-nord"
 create svg-dark-nord
 
+# No gruv light theme yet
+
+THEME="Graphite dark gruv Cursors"
+BUILD="$SRC/../dist-dark-gruv"
+create svg-dark-gruv
+
 cd "$SRC"
 rm -rf x1 x1_25 x1_5 x2

@@ -15,12 +15,15 @@ rm -rf $DEST_DIR/Graphite-light-cursors
 rm -rf $DEST_DIR/Graphite-dark-cursors
 rm -rf $DEST_DIR/Graphite-light-nord-cursors
 rm -rf $DEST_DIR/Graphite-dark-nord-cursors
+# no light gruv yet
+rm -rf $DEST_DIR/Graphite-dark-gruv-cursors
 
 cp -r dist-light $DEST_DIR/Graphite-light-cursors
 cp -r dist-dark $DEST_DIR/Graphite-dark-cursors
 cp -r dist-light-nord $DEST_DIR/Graphite-light-nord-cursors
 cp -r dist-dark-nord $DEST_DIR/Graphite-dark-nord-cursors
-
+# no light gruv yet
+cp -r dist-dark-gruv $DEST_DIR/Graphite-dark-gruv-cursors
 if [[ $XDG_SESSION_TYPE = "wayland" ]]
 then
   echo "Add XWayland compatibility to .bash_profile?"
