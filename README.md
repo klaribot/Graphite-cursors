@@ -1,5 +1,6 @@
 # Graphite cursors
-This is an x-cursor theme inspired by [Graphite gtk theme](https://github.com/vinceliuice/Graphite-gtk-theme)
+This is a fork of an x-cursor theme originally made by [vinceliuice](https://github.com/vinceliuice), and inspired by [Graphite gtk theme](https://github.com/vinceliuice/Graphite-gtk-theme).
+A couple years ago, I added a new theme to this cursor pack to complement my Gruvbox-themed Pop!_OS rice. Uploading my work here to this fork so I don't lose it.
 
 ## Installation
 To install the cursor theme simply copy the compiled theme to your icons
